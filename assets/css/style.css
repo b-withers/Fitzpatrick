@@ -24,8 +24,6 @@ body{
 	font-family: 'Lora', serif;
 	font-size: 16px;
 	font-weight: bold;
-	border-bottom: 2px;
-	border-bottom-style: solid;
 	padding-left: 15px;
 }
 
@@ -38,4 +36,12 @@ body{
 	font-family: 'Lora', serif;
 	font-size: 16px;
 	font-weight: bold;
+	padding-right: 15px;
+	border-left-style: solid;
+	border-left: 1px;
+	text-align: center;
+}
+
+#centercontent{
+	text-align: center;
 }
