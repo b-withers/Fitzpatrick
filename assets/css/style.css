@@ -1,0 +1,20 @@
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+
+.jumbotron{
+	font-family: 'Lora', serif;
+	text-align: center;
+	color: white;
+	background-color: #002266;
+	position: relative;
+	margin-bottom: 0px;
+
+}
+
+.navbar{
+	font-family: 'Lora', serif;
+	color: #002266;
+	padding: auto;
+}
