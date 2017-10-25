@@ -12,8 +12,6 @@ body{
 	height: 150px;
 }
 
-
-
 .navbar{
 	font-family: 'Lora', serif;
 	color: #002266;
@@ -62,6 +60,7 @@ body{
 }
 
 #aer{
+	
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Lora', serif;
