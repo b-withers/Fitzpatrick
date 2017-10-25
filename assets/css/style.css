@@ -6,11 +6,10 @@ body{
 .jumbotron{
 	font-family: 'Lora', serif;
 	text-align: center;
-	position: relative;
 	margin-bottom: 0px;
-	height: 100;
 	background-color: #002266;
 	color: white;
+	height: 150px;
 }
 
 
@@ -28,6 +27,7 @@ body{
 	font-weight: bold;
 	padding-left: 15px;
 	text-align: center;
+	border-bottom-style: solid;
 }
 
 #mail{
@@ -74,3 +74,9 @@ body{
 .youtube{
 	padding-bottom: 30px;
 }
+
+#fitz{
+	position: relative;
+	bottom: 35px;
+}
+
