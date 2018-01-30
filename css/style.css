@@ -113,7 +113,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #199EB8;
+  background: rgb(0, 37, 78);
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -313,7 +313,7 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 15px;
   outline: none;
