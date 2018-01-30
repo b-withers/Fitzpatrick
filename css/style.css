@@ -313,7 +313,7 @@ a:hover {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 300;
   font-size: 15px;
   outline: none;
@@ -521,6 +521,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 85px;
 }
 
+#parra{
+  font-size: 18px;
+}
+
 .block h2 {
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -560,7 +564,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 70px;
   height: 70px;
   margin-bottom: 15px;
-  background: #199EB8;
+  background: rgb(0, 37, 78);
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -570,7 +574,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .feature-col h3 {
-  color: #199EB8;
+  color: rgb(0, 37, 78);
 }
 
 .feature-col p {
