@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
 
+
   // Smooth scrolling
   $(function() {
     $('a[href*="#"]:not([href="#"])').click(function() {
