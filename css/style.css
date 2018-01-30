@@ -669,7 +669,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Team Styling
   ================================================== */
 .team h2 {
-  color: #199EB8;
+  color:rgb(0, 37, 78);
 }
 
 .team .col-sm-3 {
@@ -717,7 +717,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card:hover .card-title-wrap {
-  background-color: #199EB8;
+  background-color: rgb(0, 37, 78);
 }
 
 .team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {
@@ -750,6 +750,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .team .card-title-wrap .card-title, .team .card-title-wrap .card-text {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
+  text-align: center;
   display: block;
   margin: 0;
 }
