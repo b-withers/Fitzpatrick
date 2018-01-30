@@ -523,7 +523,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .features h2 {
-  color: #199EB8;
+  color: rgb(0, 37, 78);
 }
 
 .feature-col {
@@ -596,10 +596,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio {
   background-color: #edf6ff;
   padding-bottom: 0;
+  
 }
 
 .portfolio h2 {
-  color: #199EB8;
+  color: rgb(0, 37, 78);
   margin-bottom: 25px;
 }
 
@@ -617,6 +618,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio-grid .row > div .card img {
   width: 100%;
+  border: #000;
+  border-style: solid;
+  border-right-width: .05px;
 }
 
 .portfolio-grid .row > div .card .portfolio-over {
