@@ -795,12 +795,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  color: #199EB8;
+  color: rgb(0, 37, 78);
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #199EB8;
+  color: rgb(0, 37, 78);
   float: left;
 }
 
