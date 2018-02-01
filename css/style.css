@@ -638,7 +638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio-grid .row > div .card img {
   width: 100%;
-  border: #000;
+  border: rgba(0, 0, 0, 0.5);
   border-style: solid;
   border-right-width: .05px;
 }
@@ -649,7 +649,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   vertical-align: middle;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(66, 66, 66, 0.438);
   top: 0;
   left: 0;
   text-align: center;
@@ -749,7 +749,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.459);
   top: 0;
   left: 0;
   text-align: center;
