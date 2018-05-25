@@ -84,7 +84,7 @@ a {
 
 .btn-ghost:hover {
   background-color: #fff;
-  color: #199EB8;
+  color: rgb(0, 37, 78);
 }
 
 section {
@@ -586,7 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Call-to-action Styling
   ================================================== */
 .cta {
-  background-color: #199EB8;
+  background-color:   rgb(0, 37, 78);
   padding: 25px 0;
 }
 
