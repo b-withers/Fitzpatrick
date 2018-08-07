@@ -129,7 +129,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../img/backgrounds/4.jpg);
+  /* background-image: url(../img/backgrounds/4.jpg); */
   background-size: cover;
   padding: 150px 0;
   color: #fff;
