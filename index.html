@@ -1,64 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Fitzpatrick Sales</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui" />
-        <meta name="mobile-web-app-capable" content="yes">
-          <meta name="apple-mobile-web-app-status-bar-style" content="white">
-
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="white">
   <!-- Favicon -->
   <link href="img/logos/fitzfav.png" rel="icon">
-
   <!--apple iPhone screen logos-->
-<link rel="apple-touch-icon" sizes="57x57" href="img/logos/fitz57x57.jpg" />
-<link rel="apple-touch-icon" sizes="72x72" href="img/logos/fitz72x72.jpg" />
-<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png" />
-<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png" />
-
+  <link rel="apple-touch-icon" sizes="57x57" href="img/logos/fitz57x57.jpg" />
+  <link rel="apple-touch-icon" sizes="72x72" href="img/logos/fitz72x72.jpg" />
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
-
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
+<!--jQuery Link-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <!-- or -->
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-  
 </head>
 
 <body>
-
-    
-
-   
   <!-- Page Content
     ================================================== -->
   <!-- Hero -->
-
   <section class="hero">
-      <script type="text/javascript">
-        $(function() {
-         var images = ['4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'];
-         $('.hero').css({'background-image': 'url(img/backgrounds/' + images[Math.floor(Math.random() * images.length)] + ')'});
+    <script type="text/javascript">
+      $(function () {
+        var images = ['4.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg'];
+        $('.hero').css({
+          'background-image': 'url(img/backgrounds/' + images[Math.floor(Math.random() * images.length)] + ')'
         });
-       </script>
+      });
+    </script>
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12">
@@ -67,8 +50,8 @@
 
       <div class="col-md-12 animated fadeIn">
         <h1>
-            Fitzpatrick Sales
-          </h1>
+          Fitzpatrick Sales
+        </h1>
 
         <p class="tagline">
           The Premier Manufacturers Representative in the Western United States
@@ -84,47 +67,87 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        
-        <h1><a href="#hero">FSI</a></h1>
+
+        <h1>
+          <a href="#hero">FSI</a>
+        </h1>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#features">Benefits</a></li>
-          <li><a href="#portfolio">Manufacturers</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Helpful Links</a>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a href="#features">Benefits</a>
+          </li>
+          <li>
+            <a href="#portfolio">Manufacturers</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li class="menu-has-children">
+            <a href="">Helpful Links</a>
             <ul>
-                <li class="menu-has-children"><a href="#">Cross Reference</a>
-                  <ul>
-                    <li><a href="http://www.watts.com/pages/crossReference/crossReferencePartNumLookup.asp?catId=67" target="_blank">Watts Drainage</a></li>
-                    <li><a href="http://www.gesafety.com/Scripts/crossover.pl" target="_blank">Guardian Equipment</a></li>
-                    <li><a href="https://www.hotwater.com/resources/product-cross-reference/" target="blank">AO Smith</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-              
-              <li class="menu-has-children"><a href="#">Pricing</a>
+              <li class="menu-has-children">
+                <a href="#">Cross Reference</a>
                 <ul>
-                  <li><a href="https://www.sloan.com/resources/downloads/pricing-sheets" target="_blank">Sloan Price Sheets</a></li>
-                  <li><a href="http://www.watts.com/pages/literature_thumbs.asp?catId=64&pageId=181" target="_blank">Watts Regulator Price Sheets</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li>
+                    <a href="http://www.watts.com/pages/crossReference/crossReferencePartNumLookup.asp?catId=67" target="_blank">Watts Drainage</a>
+                  </li>
+                  <li>
+                    <a href="http://www.gesafety.com/Scripts/crossover.pl" target="_blank">Guardian Equipment</a>
+                  </li>
+                  <li>
+                    <a href="https://www.hotwater.com/resources/product-cross-reference/" target="blank">AO Smith</a>
+                  </li>
+                  <li>
+                    <a href="#">Deep Drop Down 4</a>
+                  </li>
+                  <li>
+                    <a href="#">Deep Drop Down 5</a>
+                  </li>
                 </ul>
               </li>
-              
+
+              <li class="menu-has-children">
+                <a href="#">Pricing</a>
+                <ul>
+                  <li>
+                    <a href="https://www.sloan.com/resources/downloads/pricing-sheets" target="_blank">Sloan Price Sheets</a>
+                  </li>
+                  <li>
+                    <a href="http://www.watts.com/pages/literature_thumbs.asp?catId=64&pageId=181" target="_blank">Watts Regulator Price Sheets</a>
+                  </li>
+                  <li>
+                    <a href="#">Deep Drop Down 3</a>
+                  </li>
+                  <li>
+                    <a href="#">Deep Drop Down 4</a>
+                  </li>
+                  <li>
+                    <a href="#">Deep Drop Down 5</a>
+                  </li>
+                </ul>
+              </li>
+
             </ul>
           </li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li>
+            <a href="#contact">Contact Us</a>
+          </li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
 
       <nav class="nav social-nav pull-right d-none d-lg-inline">
-        <a href="https://www.linkedin.com/company/fitzpatricksales/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto: sales@fitzpatricksales.com"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/company/fitzpatricksales/" target="_blank">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="mailto: sales@fitzpatricksales.com">
+          <i class="fa fa-envelope"></i>
+        </a>
       </nav>
     </div>
   </header>
@@ -134,14 +157,14 @@
   <section class="about" id="about">
     <div class="container text-center">
       <h2>
-          About Fitzpatrick Sales
-        </h2>
+        About Fitzpatrick Sales
+      </h2>
 
       <p>
-        Fitzpatrick Sales will provide the Highest Quality Sales, Marketing, Training and Communication available to our Customers to provide for Mutual Profitable Growth for the Manufacturers we represent, The Customers we serve and Our Company.
-<br>
-<br>
-        We will do this with Honesty, Integrity and without compromising our values.
+        Fitzpatrick Sales will provide the Highest Quality Sales, Marketing, Training and Communication available to our Customers
+        to provide for Mutual Profitable Growth for the Manufacturers we represent, The Customers we serve and Our Company.
+        <br>
+        <br> We will do this with Honesty, Integrity and without compromising our values.
       </p>
 
       <div class="row stats-row">
@@ -174,15 +197,18 @@
   <!-- /About -->
   <!-- Parallax -->
 
-  <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/product/aerdec.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
+  <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/product/aerdec.jpg" data-settings='{"stellar-background-ratio": 0.6}'
+    data-toggle="parallax-bg">
     <h2>
-        Why should you and your customers trust Fitzpatrick Sales?
-      </h2>
+      Why should you and your customers trust Fitzpatrick Sales?
+    </h2>
 
     <p class="container" id="parra">
-      With 150 years combined experience, a full time quotations department, inside sales, and outside sales team, Fitzpatrick Sales can meet any of the needs you may have. Do you need training? Technical Support? Order Status? The Team at Fitzpatrick Sales is always available to help!
+      With 150 years combined experience, a full time quotations department, inside sales, and outside sales team, Fitzpatrick
+      Sales can meet any of the needs you may have. Do you need training? Technical Support? Order Status? The Team at Fitzpatrick
+      Sales is always available to help!
     </p>
-    
+
   </div>
   <!-- /Parallax -->
   <!-- Features -->
@@ -190,8 +216,8 @@
   <section class="features" id="features">
     <div class="container">
       <h2 class="text-center">
-          Benefits
-        </h2>
+        Benefits
+      </h2>
 
       <div class="row">
         <div class="feature-col col-lg-4 col-xs-12">
@@ -204,11 +230,12 @@
 
             <div>
               <h3>
-                  Outside Sales
-                </h3>
+                Outside Sales
+              </h3>
 
               <p>
-                Our outside sales team cover Utah and Idaho (to Boise). They dedicate their time to training, education, and building relationships with our customers. 
+                Our outside sales team cover Utah and Idaho (to Boise). They dedicate their time to training, education, and building relationships
+                with our customers.
               </p>
             </div>
           </div>
@@ -224,11 +251,12 @@
 
             <div>
               <h3>
-                  Inside Sales
-                </h3>
+                Inside Sales
+              </h3>
 
               <p>
-                Our inside sales team is available Monday - Thursday 7:30-5:00, Friday 7:30-4:30 to answer questions you may have about new products, pricing inquiries, and order status.
+                Our inside sales team is available Monday - Thursday 7:30-5:00, Friday 7:30-4:30 to answer questions you may have about new
+                products, pricing inquiries, and order status.
               </p>
             </div>
           </div>
@@ -244,8 +272,8 @@
 
             <div>
               <h3>
-                  Quotations Department
-                </h3>
+                Quotations Department
+              </h3>
 
               <p>
                 With two full time Quotations Specialists, you can always count on Fitzpatrick Sales for timely and accurate Job bids.
@@ -266,11 +294,12 @@
 
             <div>
               <h3>
-                  Technical Support
-                </h3>
+                Technical Support
+              </h3>
 
               <p>
-                We take pride in being able to answer your technical questions. Our sales team has all been through extensive training, and look forward to helping you solve even the most difficult of situations.
+                We take pride in being able to answer your technical questions. Our sales team has all been through extensive training, and
+                look forward to helping you solve even the most difficult of situations.
               </p>
             </div>
           </div>
@@ -286,11 +315,12 @@
 
             <div>
               <h3>
-                  Local Inventory
-                </h3>
+                Local Inventory
+              </h3>
 
               <p>
-                We have TurboTorch, CTS, Guardian, Watts Drainage, Watts Backflow Preventers, Powers, and Orion product available for you to pick up. We can also ship direct to you or your customer.
+                We have TurboTorch, CTS, Guardian, Watts Drainage, Watts Backflow Preventers, Powers, and Orion product available for you
+                to pick up. We can also ship direct to you or your customer.
               </p>
             </div>
           </div>
@@ -306,8 +336,8 @@
       <div class="row">
         <div class="col-lg-9 col-sm-12 text-lg-left text-center">
           <h2>
-             Plumberex Trap Gear
-            </h2>
+            Plumberex Trap Gear
+          </h2>
 
           <p>
             Made in the USA, fast 3 piece, Flexible Soft PVC Material to cover looping water Supplies to meet ADA.
@@ -326,8 +356,8 @@
   <section class="portfolio col-md-12" id="portfolio">
     <div class="container text-center">
       <h2>
-          Manufacturers
-        </h2>
+        Manufacturers
+      </h2>
 
       <p>
         We proudly represent the following Manufacturers:
@@ -338,7 +368,8 @@
       <div class="row">
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http://www.americanwaterheater.com/" target="_blank"><img alt="" src="img/logos/americanlogo.jpg">
+            <a href="http://www.americanwaterheater.com/" target="_blank">
+              <img alt="" src="img/logos/americanlogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -349,13 +380,15 @@
                     American Water Heaters is a leading manufacturer of high-quality water heater products.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http://www.hotwater.com" target="_blank"><img alt="" src="img/logos/aoslogo.jpg">
+            <a href="http://www.hotwater.com" target="_blank">
+              <img alt="" src="img/logos/aoslogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -363,33 +396,39 @@
                   </h3>
 
                   <p class="card-text">
-                    A. O. Smith’s selection of residential and commercial water heaters, boilers, and storage tanks is unmatched for quality and diversity.
+                    A. O. Smith’s selection of residential and commercial water heaters, boilers, and storage tanks is unmatched for quality
+                    and diversity.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http:www.toiletseats.com" target="_blank"><img alt="" src="img/logos/bemislogo.jpg">
+            <a href="http:www.toiletseats.com" target="_blank">
+              <img alt="" src="img/logos/bemislogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
-                   Bemis Toilet Seats
+                    Bemis Toilet Seats
                   </h3>
 
                   <p class="card-text">
-                    From designing new types of hinges, to developing more efficient ways to manufacture toilet seats, Bemis is committed to quality through innovation.
+                    From designing new types of hinges, to developing more efficient ways to manufacture toilet seats, Bemis is committed to
+                    quality through innovation.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="#"><img alt="" src="img/logos/blucherlogo.jpg">
+            <a href="#">
+              <img alt="" src="img/logos/blucherlogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -397,10 +436,12 @@
                   </h3>
 
                   <p class="card-text">
-                    BLÜCHER offers drainage systems for all applications, ranging from single-family bathrooms over large industrial facilities to luxurious cruise liners.
+                    BLÜCHER offers drainage systems for all applications, ranging from single-family bathrooms over large industrial facilities
+                    to luxurious cruise liners.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -408,7 +449,8 @@
       <div class="row">
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="#"><img alt="" src="img/logos/churchlogo.jpg">
+            <a href="#">
+              <img alt="" src="img/logos/churchlogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -419,13 +461,15 @@
                     Church continues to provide innovative products, engineered with the highest quality in mind.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http://www.ctsflange.com/" target="_blank"><img alt="" src="img/logos/ctslogo.jpg">
+            <a href="http://www.ctsflange.com/" target="_blank">
+              <img alt="" src="img/logos/ctslogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -433,16 +477,19 @@
                   </h3>
 
                   <p class="card-text">
-                    The CTS Copper Flange is an innovative, labour saving method of making anti-electrolysis steel flange connections using copper tube.
+                    The CTS Copper Flange is an innovative, labour saving method of making anti-electrolysis steel flange connections using copper
+                    tube.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http://www.dormont.com/products/c/foodservice_products" target="_blank"><img alt="" src="img/logos/dormontlogo.jpg">
+            <a href="http://www.dormont.com/products/c/foodservice_products" target="_blank">
+              <img alt="" src="img/logos/dormontlogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -453,13 +500,15 @@
                     leading inventor and manufacturer of safe, high-quality stainless steel gas connectors.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http://www.gesafety.com/index.shtml" target="_blank"><img alt="" src="img/logos/guardianlogo.jpg">
+            <a href="http://www.gesafety.com/index.shtml" target="_blank">
+              <img alt="" src="img/logos/guardianlogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -470,12 +519,14 @@
                     The innovative leader in the emergency eyewash and shower industry.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="https://www.insinkerator.com/" target="_blank"><img alt="" src="img/logos/iselogo.jpg">
+            <a href="https://www.insinkerator.com/" target="_blank">
+              <img alt="" src="img/logos/iselogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -486,13 +537,15 @@
                     InSinkErator is not only the largest manufacturer of disposals, we invented them in 1927.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="https://www.lucasmilhaupt.com/en-US/" target="_blank"><img alt="" src="img/logos/lucaslogo.jpg">
+            <a href="https://www.lucasmilhaupt.com/en-US/" target="_blank">
+              <img alt="" src="img/logos/lucaslogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -503,13 +556,15 @@
                     Lucas Milhaupt is a global manufacturer of brazing and soldering materials.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http://www.orionfittings.com/" target="_blank"><img alt="" src="img/logos/orionlogo.jpg">
+            <a href="http://www.orionfittings.com/" target="_blank">
+              <img alt="" src="img/logos/orionlogo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
@@ -520,231 +575,259 @@
                     Orion as an industry leader in high quality corrosive waste drainage and pure water piping products.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col-lg-3 col-sm-6 col-xs-12">
           <div class="card card-block">
-            <a href="http://www.pascospecialty.com/" target="_blank"><img alt="" src="img/logos/pascologo.jpg">
+            <a href="http://www.pascospecialty.com/" target="_blank">
+              <img alt="" src="img/logos/pascologo.jpg">
               <div class="portfolio-over">
                 <div>
                   <h3 class="card-title">
-                   Pasco Specialty
+                    Pasco Specialty
                   </h3>
 
                   <p class="card-text">
                     Since 1936, PASCO has been manufacturing and distributing top quality plumbing specialty items.
                   </p>
                 </div>
-              </div></a>
+              </div>
+            </a>
           </div>
         </div>
-        
+
         <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="http://www.plumberex.com/" target="_blank"><img alt="" src="img/logos/plumberexlogo.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                     Plumberex
-                    </h3>
-  
-                    <p class="card-text">
-                      Under Sink Protective/Safety Covers, Handy Shield Products.
-                    </p>
-                  </div>
-                </div></a>
-            </div>
+          <div class="card card-block">
+            <a href="http://www.plumberex.com/" target="_blank">
+              <img alt="" src="img/logos/plumberexlogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Plumberex
+                  </h3>
+
+                  <p class="card-text">
+                    Under Sink Protective/Safety Covers, Handy Shield Products.
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
+        </div>
 
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-              <div class="card card-block">
-                <a href="http://www.powerscontrols.com/default.asp" target="_blank"><img alt="" src="img/logos/powerslogo.jpg">
-                  <div class="portfolio-over">
-                    <div>
-                      <h3 class="card-title">
-                        Powers Controls
-                      </h3>
-    
-                      <p class="card-text">
-                        From its earliest days as the Powers Regulator, Powers has been an innovator in the area of temperature control.
-                      </p>
-                    </div>
-                  </div></a>
-              </div>
-            </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://www.powerscontrols.com/default.asp" target="_blank">
+              <img alt="" src="img/logos/powerslogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Powers Controls
+                  </h3>
 
-            <div class="col-lg-3 col-sm-6 col-xs-12">
-                <div class="card card-block">
-                  <a href="https://www.sloan.com/" target="_blank"><img alt="" src="img/logos/sloanlogo.jpg">
-                    <div class="portfolio-over">
-                      <div>
-                        <h3 class="card-title">
-                          Sloan Valve Company
-                        </h3>
-      
-                        <p class="card-text">
-                          The world’s leading manufacturer of commercial plumbing systems.
-                        </p>
-                      </div>
-                    </div></a>
+                  <p class="card-text">
+                    From its earliest days as the Powers Regulator, Powers has been an innovator in the area of temperature control.
+                  </p>
                 </div>
               </div>
+            </a>
+          </div>
+        </div>
 
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                <div class="card card-block">
-                  <a href="http://www.statewaterheaters.com/" target="_blank"><img alt="" src="img/logos/statelogo.jpg">
-                    <div class="portfolio-over">
-                      <div>
-                        <h3 class="card-title">
-                          State Water Heaters
-                        </h3>
-      
-                        <p class="card-text">
-                          Leader in the water heating industry, through steadfast commitments to seeking new materials, and innovative engineering techniques.
-                        </p>
-                      </div>
-                    </div></a>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="https://www.sloan.com/" target="_blank">
+              <img alt="" src="img/logos/sloanlogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Sloan Valve Company
+                  </h3>
+
+                  <p class="card-text">
+                    The world’s leading manufacturer of commercial plumbing systems.
+                  </p>
                 </div>
               </div>
+            </a>
+          </div>
+        </div>
 
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                <div class="card card-block">
-                  <a href="http://www.statewaterheaters.com/" target="_blank"><img alt="" src="img/logos/takagilogo.jpg">
-                    <div class="portfolio-over">
-                      <div>
-                        <h3 class="card-title">
-                          Takagi Tankless
-                        </h3>
-      
-                        <p class="card-text">
-                          Takagi has delivered innovative hot water solutions for over 60 years and is sold exclusively by plumbing wholesalers. 
-                        </p>
-                      </div>
-                    </div></a>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://www.statewaterheaters.com/" target="_blank">
+              <img alt="" src="img/logos/statelogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    State Water Heaters
+                  </h3>
+
+                  <p class="card-text">
+                    Leader in the water heating industry, through steadfast commitments to seeking new materials, and innovative engineering
+                    techniques.
+                  </p>
                 </div>
               </div>
+            </a>
+          </div>
+        </div>
 
-              <div class="col-lg-3 col-sm-6 col-xs-12">
-                  <div class="card card-block">
-                    <a href="http://www.esabna.com/us/en/products/brands/turbotorch/index.cfm" target="_blank"><img alt="" src="img/logos/turbologo.jpg">
-                      <div class="portfolio-over">
-                        <div>
-                          <h3 class="card-title">
-                            Turbo Torch
-                          </h3>
-        
-                          <p class="card-text">
-                            The most respected name in brazing and soldering.
-                          </p>
-                        </div>
-                      </div></a>
-                  </div>
-                </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://www.statewaterheaters.com/" target="_blank">
+              <img alt="" src="img/logos/takagilogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Takagi Tankless
+                  </h3>
 
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                  <div class="card card-block">
-                    <a href="http://wsflab.com/" target="_blank"><img alt="" src="img/logos/watersaverlogo.jpg">
-                      <div class="portfolio-over">
-                        <div>
-                          <h3 class="card-title">
-                            WaterSaver
-                          </h3>
-        
-                          <p class="card-text">
-                            manufacturer of faucets, valves, safety equipment for use in science laboratories.
-                          </p>
-                        </div>
-                      </div></a>
-                  </div>
+                  <p class="card-text">
+                    Takagi has delivered innovative hot water solutions for over 60 years and is sold exclusively by plumbing wholesalers.
+                  </p>
                 </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                  <div class="card card-block">
-                    <a href="http://www.watts.com/drainage" target="_blank"><img alt="" src="img/logos/wattsdrainlogo.jpg">
-                      <div class="portfolio-over">
-                        <div>
-                          <h3 class="card-title">
-                            Watts Drainage
-                          </h3>
-        
-                          <p class="card-text">
-                            drainage products designed to deliver superior functionality for commercial, industrial, and residential applications.
-                          </p>
-                        </div>
-                      </div></a>
-                  </div>
-                </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://www.esabna.com/us/en/products/brands/turbotorch/index.cfm" target="_blank">
+              <img alt="" src="img/logos/turbologo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Turbo Torch
+                  </h3>
 
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                  <div class="card card-block">
-                    <a href="http://watts.com" target="_blank"><img alt="" src="img/logos/wattslogo.jpg">
-                      <div class="portfolio-over">
-                        <div>
-                          <h3 class="card-title">
-                            Watts Water Technologies
-                          </h3>
-        
-                          <p class="card-text">
-                            Watts manufactures and sells an extensive line of products for the water quality, residential plumbing & commercial markets.
-                          </p>
-                        </div>
-                      </div></a>
-                  </div>
+                  <p class="card-text">
+                    The most respected name in brazing and soldering.
+                  </p>
                 </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-                <div class="col-lg-3 col-sm-6 col-xs-12">
-                  <div class="card card-block">
-                    <a href="http://www.watts.com/purewater" target="_blank"><img alt="" src="img/logos/wattspurelogo.jpg">
-                      <div class="portfolio-over">
-                        <div>
-                          <h3 class="card-title">
-                            Watts Pure Water
-                          </h3>
-        
-                          <p class="card-text">
-                            Water Filtration products.
-                          </p>
-                        </div>
-                      </div></a>
-                  </div>
-                </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://wsflab.com/" target="_blank">
+              <img alt="" src="img/logos/watersaverlogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    WaterSaver
+                  </h3>
 
-                
-                <div class="col-lg-3">
-                  <div class="card card-block">
-                    <a href="http://www.willoughby-ind.com/" target="_blank"><img alt="" src="img/logos/willologo.jpg">
-                      <div class="portfolio-over">
-                        <div>
-                          <h3 class="card-title">
-                            Willoughby Industries
-                          </h3>
-        
-                          <p class="card-text">
-                            The leading manufacturer of stainless steel and solid surface plumbing fixtures and accessories. 
-                          </p>
-                        </div>
-                      </div></a>
-                  </div>
+                  <p class="card-text">
+                    manufacturer of faucets, valves, safety equipment for use in science laboratories.
+                  </p>
                 </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
-                <div class="col-lg-3">
-                  <div class="card card-block">
-                    <a href="http://fitzpatricksales.com" target="_blank"><img alt="" src="img/logos/whitelogo.jpg">
-                      <div class="portfolio-over">
-                        <div>
-                          <h3 class="card-title">
-                           
-                          </h3>
-        
-                          <p class="card-text">
-                           
-                          </p>
-                        </div>
-                      </div></a>
-                  </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://www.watts.com/drainage" target="_blank">
+              <img alt="" src="img/logos/wattsdrainlogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Watts Drainage
+                  </h3>
+
+                  <p class="card-text">
+                    drainage products designed to deliver superior functionality for commercial, industrial, and residential applications.
+                  </p>
                 </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://watts.com" target="_blank">
+              <img alt="" src="img/logos/wattslogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Watts Water Technologies
+                  </h3>
+
+                  <p class="card-text">
+                    Watts manufactures and sells an extensive line of products for the water quality, residential plumbing & commercial markets.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="card card-block">
+            <a href="http://www.watts.com/purewater" target="_blank">
+              <img alt="" src="img/logos/wattspurelogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Watts Pure Water
+                  </h3>
+
+                  <p class="card-text">
+                    Water Filtration products.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="col-lg-3">
+          <div class="card card-block">
+            <a href="http://www.willoughby-ind.com/" target="_blank">
+              <img alt="" src="img/logos/willologo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+                    Willoughby Industries
+                  </h3>
+
+                  <p class="card-text">
+                    The leading manufacturer of stainless steel and solid surface plumbing fixtures and accessories.
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3">
+          <div class="card card-block">
+            <a href="http://fitzpatricksales.com" target="_blank">
+              <img alt="" src="img/logos/whitelogo.jpg">
+              <div class="portfolio-over">
+                <div>
+                  <h3 class="card-title">
+
+                  </h3>
+
+                  <p class="card-text">
+
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -755,15 +838,17 @@
   <section class="team" id="team">
     <div class="container">
       <h2 class="text-center">
-          Meet our team
-        </h2>
+        Meet our team
+      </h2>
 
       <div class="row">
         <div class="col-sm-3 col-xs-6">
           <div class="card card-block">
-            <a href="#"><img alt="" class="team-img" src="img/portraits/Roger.jpg">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Roger.jpg">
               <div class="card-title-wrap">
-                <span class="card-title">Roger Withers</span> <span class="card-text">President / CEO</span>
+                <span class="card-title">Roger Withers</span>
+                <span class="card-text">President / CEO</span>
               </div>
 
               <div class="team-over">
@@ -772,248 +857,363 @@
                 </h4>
 
                 <nav class="social-nav">
-                   <a href="https://www.linkedin.com/in/roger-withers-83955152/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto:roger@fitzpatricksales.com"><i class="fa fa-envelope"></i></a>
-            </nav>
+                  <a href="https://www.linkedin.com/in/roger-withers-83955152/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:roger@fitzpatricksales.com">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
 
-            <p>
-              Roger started working for Fitzpatrick Sales in 1979, and purchased the company from Bob Fitzpatrick in 1986. With 40 years in the Rep industry, and eight additional years in the wholesale industry, you cannot find a more skilled or knowledgable Leader in the plumbing industry. “Luck Is What Happens When Preparation Meets Opportunity"
-            </p>
+                <p>
+                  Roger started working for Fitzpatrick Sales in 1979, and purchased the company from Bob Fitzpatrick in 1986. With 40 years
+                  in the Rep industry, and eight additional years in the wholesale industry, you cannot find a more skilled
+                  or knowledgable Leader in the plumbing industry. “Luck Is What Happens When Preparation Meets Opportunity"
+                </p>
+              </div>
+            </a>
           </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-sm-3 col-xs-6">
-        <div class="card card-block">
-          <a href="#"><img alt="" class="team-img" src="img/portraits/Kevin.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Kevin Withers</span> <span class="card-text">General Manager</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="https://www.linkedin.com/in/kevin-withers-698864132/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto: kevin@fitzpatricksales.com"><i class="fa fa-envelope"></i></a>
-          </nav>
-
-          <p>
-            Kevin has been with Fitzpatrick Sales for 22 years. Running the quotations department, and working with contractors, wholesalers, and Manufacturers, Kevin has a deep knowledge of how the Plumbing Industry runs. "You know what they say fool me once strike one but fool me twice......strike three"
-          </p>
-        </div>
-        </a>
-      </div>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div class="card card-block">
-        <a href="#"><img alt="" class="team-img" src="img/portraits/portrait.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Gary Frantz</span> <span class="card-text">Outside Sales</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-        </nav>
-
-        <p>
-          With 25 years at Fitzpatrick Sales, another 10 years in the Rep Industry, and 7 years working for wholesalers, Gary is the most knowledgable outside Salesman working in the industry. "I once worked with a guy for three years and never learned his name. Best friend I ever had. We still never talk sometimes."
-        </p>  
-      </div>
-      </a>
-    </div>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div class="card card-block">
-        <a href="#"><img alt="" class="team-img" src="img/portraits/Todd.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Todd Gray</span> <span class="card-text">Inside / Outside Sales / Builders</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                   <a href="https://www.linkedin.com/in/todd-gray-44692481/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="mailto: todd@fitzpatricksales.com"><i class="fa fa-envelope"></i></a>
-        </nav>
-
-        <p>
-          25 years at Fitzpatrick Sales, with 31 total years in the Plumbing industry. Would I rather be feared or loved? Easy, both. I want people to be afraid of how much they love me.
-
-
-        </p>
-      </div>
-      </a>
-    </div>
-    </div>
-
-    <br>
-
-    <div class="col-sm-3 col-xs-6">
-      <div class="card card-block">
-        <a href="#"><img alt="" class="team-img" src="img/portraits/Brady.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Brady Withers</span> <span class="card-text">Inside / Outide Sales</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-        </nav>
-
-        <p>
-          18 years at Fitzpatrick Sales, 20 years total experience in the Plumbing Industry. "I’m not great at the advice. Can I interest you in a sarcastic comment?"
-        </p>
-      </div>
-      </a>
-    </div>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div class="card card-block">
-        <a href="#"><img alt="" class="team-img" src="img/portraits/Tawni.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Tawni Withers</span> <span class="card-text">Quotations</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-        </nav>
-
-        <p>
-          10 Years experience at Fitzpatrick Sales, 4 years full time Quotations Specialist. She is the gatekeeper of her own destiny, and will have her glory days in the hot sun.
-      </div>
-      </a>
-    </div>
-    </div>
-
-
-    <div class="col-sm-3 col-xs-6">
-      <div class="card card-block">
-        <a href="#"><img alt="" class="team-img" src="img/portraits/Zach.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Zach Fullmer</span> <span class="card-text">Inside Sales</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-        </nav>
-
-        <p>
-          Bachelors Degree in Strategic Communication, 1 year experience at Fitzpatrick Sales. Regional Manager at Callahan Brake Pads: By the People, For the People.
-        </p>
-      </div>
-      </a>
-    </div>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div class="card card-block">
-        <a href="#"><img alt="" class="team-img" src="img/portraits/Scott.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Scott Elkins</span> <span class="card-text">Business Development Director</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                   <a href="https://www.linkedin.com/in/scott-elkins-97340742/" target="_blank"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-        </nav>
-
-        <p>
-          Bachelors Degree in Business Management, 23 year experience in the Building Industry. Recently Joined the Team at Fitzpatrick Sales. How much you wanna make a bet I can throw a football over them mountains?
-        </p>
-      </div>
-      </a>
-    </div>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-      </div>
-
-    <div class="col-sm-3 col-xs-6">
-      <div class="card card-block">
-        <a href="#"><img alt="" class="team-img" src="img/portraits/portrait.jpg">
-              <div class="card-title-wrap">
-                <span class="card-title">Katrina Alvey</span> <span class="card-text">Sales Support Team</span>
-              </div>
-
-              <div class="team-over">
-                <h4 class="hidden-md-down">
-                  Connect with me
-                </h4>
-
-                <nav class="social-nav">
-                  <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-        </nav>
-
-        <p>
-          Employee info:
-        </p>
-      </div>
-      </a>
-    </div>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-        <div class="card card-block">
-          <a href="#"><img alt="" class="team-img" src="img/portraits/Debbie.jpg">
-                <div class="card-title-wrap">
-                  <span class="card-title">Debbie Vincent</span> <span class="card-text">Sales Support Team</span>
-                </div>
-  
-                <div class="team-over">
-                  <h4 class="hidden-md-down">
-                    Connect with me
-                  </h4>
-  
-                  <nav class="social-nav">
-                    <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-          </nav>
-  
-          <p>
-            2 years experience at Fitzpatrick Sales. It's not how you stand by your car, it's how you race your car. 
-          </p>
-        </div>
-        </a>
-      </div>
-      </div>
-
-      <div class="col-sm-3 col-xs-6">
         </div>
 
-    </div>
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Kevin.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Kevin Withers</span>
+                <span class="card-text">General Manager</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="https://www.linkedin.com/in/kevin-withers-698864132/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="mailto: kevin@fitzpatricksales.com">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  Kevin has been with Fitzpatrick Sales for 22 years. Running the quotations department, and working with contractors, wholesalers,
+                  and Manufacturers, Kevin has a deep knowledge of how the Plumbing Industry runs. "You know what they say
+                  fool me once strike one but fool me twice......strike three"
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/portrait.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Gary Frantz</span>
+                <span class="card-text">Outside Sales</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  With 25 years at Fitzpatrick Sales, another 10 years in the Rep Industry, and 7 years working for wholesalers, Gary is the
+                  most knowledgable outside Salesman working in the industry. "I once worked with a guy for three years and
+                  never learned his name. Best friend I ever had. We still never talk sometimes."
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Todd.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Todd Gray</span>
+                <span class="card-text">Inside / Outside Sales / Builders</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="https://www.linkedin.com/in/todd-gray-44692481/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="mailto: todd@fitzpatricksales.com">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  25 years at Fitzpatrick Sales, with 31 total years in the Plumbing industry. Would I rather be feared or loved? Easy, both.
+                  I want people to be afraid of how much they love me.
+
+
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Brady.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Brady Withers</span>
+                <span class="card-text">Inside / Outide Sales</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  18 years at Fitzpatrick Sales, 20 years total experience in the Plumbing Industry. "I’m not great at the advice. Can I interest
+                  you in a sarcastic comment?"
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Tawni.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Tawni Withers</span>
+                <span class="card-text">Quotations</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  10 Years experience at Fitzpatrick Sales, 4 years full time Quotations Specialist. She is the gatekeeper of her own destiny,
+                  and will have her glory days in the hot sun.
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Zach.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Zach Fullmer</span>
+                <span class="card-text">Inside Sales</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  Bachelors Degree in Strategic Communication, 1 year experience at Fitzpatrick Sales. Regional Manager at Callahan Brake Pads:
+                  By the People, For the People.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Scott.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Scott Elkins</span>
+                <span class="card-text">Business Development Director</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="https://www.linkedin.com/in/scott-elkins-97340742/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  Bachelors Degree in Business Management, 23 year experience in the Building Industry. Recently Joined the Team at Fitzpatrick
+                  Sales. How much you wanna make a bet I can throw a football over them mountains?
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/portrait.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Katrina Alvey</span>
+                <span class="card-text">Sales Support Team</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  Employee info:
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+          <div class="card card-block">
+            <a href="#">
+              <img alt="" class="team-img" src="img/portraits/Debbie.jpg">
+              <div class="card-title-wrap">
+                <span class="card-title">Debbie Vincent</span>
+                <span class="card-text">Sales Support Team</span>
+              </div>
+
+              <div class="team-over">
+                <h4 class="hidden-md-down">
+                  Connect with me
+                </h4>
+
+                <nav class="social-nav">
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </nav>
+
+                <p>
+                  2 years experience at Fitzpatrick Sales. It's not how you stand by your car, it's how you race your car.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-xs-6">
+        </div>
+
+      </div>
     </div>
   </section>
   <!-- /Team -->
-  
+
 
   <section id="contact">
     <div class="container">
@@ -1028,18 +1228,26 @@
           <div class="info">
             <div>
               <i class="fa fa-map-marker"></i>
-              <a href="https://www.google.com/maps/place/4107-4111+Nike+Dr,+West+Jordan,+UT+84088/@40.600981,-111.9912647,17z/data=!3m1!4b1!4m5!3m4!1s0x87528efcdb9c77ab:0xf84295ebb0f308e!8m2!3d40.6013757!4d-111.9889212" target="_blank"><p>4109 West Nike Dr<br>West Jordan, Ut 84088</p></a>
-              
+              <a href="https://www.google.com/maps/place/4107-4111+Nike+Dr,+West+Jordan,+UT+84088/@40.600981,-111.9912647,17z/data=!3m1!4b1!4m5!3m4!1s0x87528efcdb9c77ab:0xf84295ebb0f308e!8m2!3d40.6013757!4d-111.9889212"
+                target="_blank">
+                <p>4109 West Nike Dr
+                  <br>West Jordan, Ut 84088</p>
+              </a>
+
             </div>
 
             <div>
               <i class="fa fa-envelope"></i>
-              <p><a href="mailto:sales@fitzpatricksales.com">sales@fitzpatricksales.com</a></p>
+              <p>
+                <a href="mailto:sales@fitzpatricksales.com">sales@fitzpatricksales.com</a>
+              </p>
             </div>
 
             <div>
               <i class="fa fa-phone"></i>
-              <p><a href="tel:8012820700">801 | 282 | 0700</a></p>
+              <p>
+                <a href="tel:8012820700">801 | 282 | 0700</a>
+              </p>
             </div>
 
             <div>
@@ -1071,7 +1279,9 @@
 
           <div class="col-lg-6 col-xs-12 text-lg-right text-center">
             <ul class="list-inline">
-              <li class="list-inline-item"><a href="#hero">FSI</a></li>
+              <li class="list-inline-item">
+                <a href="#hero">FSI</a>
+              </li>
               <li class="list-inline-item">
                 <a href="index.html">Home</a>
               </li>
@@ -1102,7 +1312,9 @@
       </div>
     </div>
   </footer>
-  <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a>
+  <a class="scrolltop" href="#">
+    <span class="fa fa-angle-up"></span>
+  </a>
 
 
   <!-- Required JavaScript Libraries -->
@@ -1124,39 +1336,25 @@
   <script src="js/custom.js"></script>
   <!--toast notification JS-->
   <script src='./js/xl-toast.js'></script>
-  
+
 
 </body>
 
 <script>
-    $(document).ready(function() {
-     
-  
-      setTimeout(function() {
-$.toast({
-  title: '<a href="http://pages.wattswater.com/Watts-Mobile-App.html" target="_blank">Click Here to see the new Watts App!</a>',
-  duration: 6000,
-  width: 'auto',
-  height: '28px',
-  backgroundColor: 'white',
-  textColor: 'darkblue',
-  lineheight: '28px',
-  position: 'bottom'
-}); 
-
+  $(document).ready(function () {
+    setTimeout(function () {
+      $.toast({
+        title: '<a href="http://pages.wattswater.com/Watts-Mobile-App.html" target="_blank">Click Here to see the new Watts App!</a>',
+        duration: 6000,
+        width: 'auto',
+        height: '28px',
+        backgroundColor: 'white',
+        textColor: 'darkblue',
+        lineheight: '28px',
+        position: 'bottom'
+      });
     }, 2500);
-
-    });
-
-
-    
-
+  });
 </script>
-
-
-
-
-
-
 
 </html>
