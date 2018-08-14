@@ -48,12 +48,11 @@ h4 {
 }
 
 #toast-content a{
-  
+  border-radius: 15px;
   color: white;
-  
+  height: 28px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  
-  
+  background-color: rgb(31, 91, 255);
 }
 
 /* ==================================================
