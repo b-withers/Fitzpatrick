@@ -37,12 +37,17 @@
   <!-- or -->
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
+  
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  
 </head>
 
 <body>
+
+    
+
+   
   <!-- Page Content
     ================================================== -->
   <!-- Hero -->
@@ -1117,7 +1122,35 @@
 
   <!-- Template Specisifc Custom Javascript File -->
   <script src="js/custom.js"></script>
+  <!--toast notification JS-->
+  <script src='./js/xl-toast.js'></script>
   
 
 </body>
+
+<script>
+    $(document).ready(function() {
+
+$.toast({
+  title: '<a href="http://pages.wattswater.com/Watts-Mobile-App.html" target="_blank">Click Here to see the new Watts App!</a>',
+//   position: 'bottom',
+  duration: 6000,
+  width: 'auto',
+  height: '30px',
+  backgroundColor: 'rgba(66, 134, 244)',
+  textColor: 'white',
+  lineheight: 'auto',
+  position: 'bottom'
+
+}); 
+    });
+
+</script>
+
+
+
+
+
+
+
 </html>

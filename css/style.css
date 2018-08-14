@@ -47,6 +47,14 @@ h4 {
   font-size: 18px;
 }
 
+#toast-content a{
+  font-size: 18px;
+  color: white;
+  border-radius: 15%;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  margin-bottom: 10%;
+}
+
 /* ==================================================
   General
   ================================================== */
