@@ -48,9 +48,10 @@ h4 {
 }
 
 #toast-content a{
+  font-size: 18px;
   border-radius: 15px;
   color: white;
-  height: 28px;
+  height: 36px;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   background-color: rgb(31, 91, 255);
 }
