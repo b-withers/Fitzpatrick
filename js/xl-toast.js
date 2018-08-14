@@ -17,7 +17,7 @@ $.extend({
 		var flag            = obj.flag || true;
 		var lineheight      = obj.lineheight || height;
 		if(position == 'bottom') {
-			position = "bottom: 40px;";
+			position = "bottom: 50px;";
 		} else if(position == 'middle') {
 			position = "top: calc(45% - 15px);";
 		} else if(position == 'top') {
@@ -28,11 +28,11 @@ $.extend({
 			
 		}
 		if(flag) {
-			var content = "<div id='toast-div' style='position: fixed;display: none; z-index:999;font-size: 12px; " + position + ";left: 0;width:100%; height: " + height + "; text-align: center'>";
+			var content = "<div id='toast-div' style='position: fixed;display: none; z-index:999;font-size: 18px; " + position + ";left: 0;width:100%; height: " + height + "; text-align: center'>";
 		} else {
 			var content = "<div id='toast-div' style='position: fixed; display: none;z-index:999; top: 0; left: 0;width:100%; height:100%; text-align: center'>";
 		}
-		content += '<div id="toast-content" style="display: inline-block; width: ' + width + ';min-height: ' + height + ';padding: 8px 14px;background-color: ' + backgroundColor + ';text-align: center;line-height: ' + lineheight +';border-radius: 3px;color: ' + textColor + ';">' + title + '</div>';
+		content += '<div id="toast-content" style="display: inline-block; width: ' + width + ';min-height: ' + height + ';padding: 8px 14px;background-color: ' + backgroundColor + ';text-align: center;line-height: ' + lineheight +';border-radius: 15px;color: ' + textColor + ';">' + title + '</div>';
 		content += '</div>';
 		$("body").append(content);
 		$("#toast-div").fadeIn(500);
