@@ -3,7 +3,11 @@ $.extend({
 	* toast效果,position支持top:10px;bottom:10px
 	* {title: "title", duration: "duration", position: "position", width: "width", height: "height", backgroundColor: "backgroundColor", textColor: "textColor"}
 	*/
+
+	
 	toast: function(obj) {
+
+	
 		if($("#toast-div").length) {
 			return;
 		}

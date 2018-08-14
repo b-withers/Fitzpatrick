@@ -47,14 +47,13 @@ h4 {
   font-size: 18px;
 }
 
-#toast-content a{
+/* #toast-content a{
   font-size: 18px;
   border-radius: 15px;
-  color: white;
-  
+  color: rgba(0, 37, 78);
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  background-color: rgb(31, 91, 255);
-}
+  background-color: white;
+} */
 
 /* ==================================================
   General
