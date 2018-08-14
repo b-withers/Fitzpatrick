@@ -35,7 +35,7 @@ $.extend({
 		content += '<div id="toast-content" style="display: inline-block; width: ' + width + ';min-height: ' + height + ';padding: 8px 14px;background-color: ' + backgroundColor + ';text-align: center;line-height: ' + lineheight +';border-radius: 15px;color: ' + textColor + ';">' + title + '</div>';
 		content += '</div>';
 		$("body").append(content);
-		$("#toast-div").fadeIn(1000);
+		$("#toast-div").fadeIn(1500);
 		setTimeout(function(){$("#toast-div").fadeOut(1000);}, showTime);
 		setTimeout(function(){$("#toast-div").remove();}, showTime + 1000);
 	}
