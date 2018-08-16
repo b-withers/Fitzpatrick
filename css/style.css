@@ -47,6 +47,13 @@ h4 {
   font-size: 18px;
 }
 
+#toast-content{
+border-style: solid;
+border-color: rgb(41, 41, 41);
+box-shadow: 2px 2px 1px rgb(48, 48, 48);
+}
+
+
 
 
 /* ==================================================
