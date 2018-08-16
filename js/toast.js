@@ -16,7 +16,7 @@ $.extend({
 		var flag = obj.flag || true;
 		var lineheight = obj.lineheight || height;
 		if (position == 'bottom') {
-			position = "bottom: 60px;";
+			position = "bottom: 65px;";
 		} else if (position == 'middle') {
 			position = "top: calc(45% - 15px);";
 		} else if (position == 'top') {
