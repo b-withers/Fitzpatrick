@@ -48,9 +48,9 @@ h4 {
 }
 
 #toast-content{
-border-style: solid;
-border-color: rgb(41, 41, 41);
-box-shadow: 2px 2px 1px rgb(48, 48, 48);
+/* border-style: solid;
+border-color: rgba(116, 116, 116, 0.589); */
+box-shadow: 5px 5px 11px rgb(68, 68, 68);
 }
 
 
